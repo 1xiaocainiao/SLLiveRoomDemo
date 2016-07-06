@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Live Room View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SLLiveRoomViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlM-CD-WY7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" tag="20000" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GBs-L1-gri">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="10000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="千帆直播SDK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8d-pN-AsE">
+                                        <rect key="frame" x="249" y="147" width="101.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="a8d-pN-AsE" firstAttribute="centerX" secondItem="vlM-CD-WY7" secondAttribute="centerX" id="7HT-fx-9XE"/>
+                                    <constraint firstItem="GBs-L1-gri" firstAttribute="top" secondItem="vlM-CD-WY7" secondAttribute="top" id="A1W-B7-Nor"/>
+                                    <constraint firstItem="GBs-L1-gri" firstAttribute="leading" secondItem="vlM-CD-WY7" secondAttribute="leading" id="Q0E-O7-uOQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="GBs-L1-gri" secondAttribute="bottom" id="Yau-GJ-Czl"/>
+                                    <constraint firstItem="a8d-pN-AsE" firstAttribute="top" secondItem="vlM-CD-WY7" secondAttribute="top" constant="147" id="aBZ-DJ-aU6"/>
+                                    <constraint firstAttribute="trailing" secondItem="GBs-L1-gri" secondAttribute="trailing" id="qPB-mp-F0e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vlM-CD-WY7" secondAttribute="trailing" id="0py-iG-6Y1"/>
+                            <constraint firstItem="vlM-CD-WY7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Ned-7X-N2L"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vlM-CD-WY7" secondAttribute="bottom" id="iaV-lF-PJe"/>
+                            <constraint firstItem="vlM-CD-WY7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nE7-hV-Pam"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="panView" destination="vlM-CD-WY7" id="elT-4P-2qe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="376"/>
+        </scene>
+    </scenes>
+</document>

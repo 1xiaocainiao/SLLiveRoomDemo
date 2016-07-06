@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42167701D2D54A3004688A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B421676F1D2D54A3004688A5 /* main.m */; };
+		B42167731D2D54A3004688A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B42167721D2D54A3004688A5 /* AppDelegate.m */; };
+		B42167791D2D54A3004688A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42167771D2D54A3004688A5 /* Main.storyboard */; };
+		B421677B1D2D54A3004688A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B421677A1D2D54A3004688A5 /* Assets.xcassets */; };
+		B421677E1D2D54A3004688A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B421677C1D2D54A3004688A5 /* LaunchScreen.storyboard */; };
+		B42167871D2D54E4004688A5 /* SLLiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42167861D2D54E4004688A5 /* SLLiveRoomViewController.m */; };
+		B421678A1D2D54F7004688A5 /* SLLiveRoomViewController+Pan.m in Sources */ = {isa = PBXBuildFile; fileRef = B42167891D2D54F7004688A5 /* SLLiveRoomViewController+Pan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B421676B1D2D54A3004688A5 /* SLLiveRoomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLLiveRoomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B421676F1D2D54A3004688A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B42167711D2D54A3004688A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B42167721D2D54A3004688A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B42167781D2D54A3004688A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B421677A1D2D54A3004688A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B421677D1D2D54A3004688A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B421677F1D2D54A3004688A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42167851D2D54E4004688A5 /* SLLiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLiveRoomViewController.h; sourceTree = "<group>"; };
+		B42167861D2D54E4004688A5 /* SLLiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLiveRoomViewController.m; sourceTree = "<group>"; };
+		B42167881D2D54F7004688A5 /* SLLiveRoomViewController+Pan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLLiveRoomViewController+Pan.h"; sourceTree = "<group>"; };
+		B42167891D2D54F7004688A5 /* SLLiveRoomViewController+Pan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLLiveRoomViewController+Pan.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42167681D2D54A3004688A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B42167621D2D54A3004688A5 = {
+			isa = PBXGroup;
+			children = (
+				B421676D1D2D54A3004688A5 /* SLLiveRoomDemo */,
+				B421676C1D2D54A3004688A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B421676C1D2D54A3004688A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B421676B1D2D54A3004688A5 /* SLLiveRoomDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B421676D1D2D54A3004688A5 /* SLLiveRoomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B42167711D2D54A3004688A5 /* AppDelegate.h */,
+				B42167721D2D54A3004688A5 /* AppDelegate.m */,
+				B42167851D2D54E4004688A5 /* SLLiveRoomViewController.h */,
+				B42167861D2D54E4004688A5 /* SLLiveRoomViewController.m */,
+				B42167881D2D54F7004688A5 /* SLLiveRoomViewController+Pan.h */,
+				B42167891D2D54F7004688A5 /* SLLiveRoomViewController+Pan.m */,
+				B42167771D2D54A3004688A5 /* Main.storyboard */,
+				B421677A1D2D54A3004688A5 /* Assets.xcassets */,
+				B421677C1D2D54A3004688A5 /* LaunchScreen.storyboard */,
+				B421677F1D2D54A3004688A5 /* Info.plist */,
+				B421676E1D2D54A3004688A5 /* Supporting Files */,
+			);
+			path = SLLiveRoomDemo;
+			sourceTree = "<group>";
+		};
+		B421676E1D2D54A3004688A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B421676F1D2D54A3004688A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B421676A1D2D54A3004688A5 /* SLLiveRoomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42167821D2D54A3004688A5 /* Build configuration list for PBXNativeTarget "SLLiveRoomDemo" */;
+			buildPhases = (
+				B42167671D2D54A3004688A5 /* Sources */,
+				B42167681D2D54A3004688A5 /* Frameworks */,
+				B42167691D2D54A3004688A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLLiveRoomDemo;
+			productName = SLLiveRoomDemo;
+			productReference = B421676B1D2D54A3004688A5 /* SLLiveRoomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42167631D2D54A3004688A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = debugly;
+				TargetAttributes = {
+					B421676A1D2D54A3004688A5 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KCE7BVJLX3;
+					};
+				};
+			};
+			buildConfigurationList = B42167661D2D54A3004688A5 /* Build configuration list for PBXProject "SLLiveRoomDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42167621D2D54A3004688A5;
+			productRefGroup = B421676C1D2D54A3004688A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B421676A1D2D54A3004688A5 /* SLLiveRoomDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42167691D2D54A3004688A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B421677E1D2D54A3004688A5 /* LaunchScreen.storyboard in Resources */,
+				B421677B1D2D54A3004688A5 /* Assets.xcassets in Resources */,
+				B42167791D2D54A3004688A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42167671D2D54A3004688A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42167871D2D54E4004688A5 /* SLLiveRoomViewController.m in Sources */,
+				B42167731D2D54A3004688A5 /* AppDelegate.m in Sources */,
+				B42167701D2D54A3004688A5 /* main.m in Sources */,
+				B421678A1D2D54F7004688A5 /* SLLiveRoomViewController+Pan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B42167771D2D54A3004688A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42167781D2D54A3004688A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B421677C1D2D54A3004688A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B421677D1D2D54A3004688A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42167801D2D54A3004688A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B42167811D2D54A3004688A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42167831D2D54A3004688A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLLiveRoomDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xql.SLLiveRoomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B42167841D2D54A3004688A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLLiveRoomDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xql.SLLiveRoomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42167661D2D54A3004688A5 /* Build configuration list for PBXProject "SLLiveRoomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42167801D2D54A3004688A5 /* Debug */,
+				B42167811D2D54A3004688A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42167821D2D54A3004688A5 /* Build configuration list for PBXNativeTarget "SLLiveRoomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42167831D2D54A3004688A5 /* Debug */,
+				B42167841D2D54A3004688A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42167631D2D54A3004688A5 /* Project object */;
+}
